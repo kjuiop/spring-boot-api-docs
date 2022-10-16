@@ -24,7 +24,7 @@ class HealthCheckControllerTest extends RestDocsTestSupport {
         // given
 
         // when
-        ResultActions result = mockMvc.perform(get("/api/health-check")
+        ResultActions result = mockMvc.perform(get("/api/restdocs/mock/health-check")
                 .contentType(MediaType.APPLICATION_JSON));
 
         // then

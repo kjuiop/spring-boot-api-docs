@@ -17,7 +17,7 @@ configurations {
 
 ext {
     snippetsDir = file("${buildDir}/generated-snippets")
-    originHtml = file("${buildDir}/docs/asciidoc/service-api.html")
+    originHtml = file("${buildDir}/docs/asciidoc/rest-docs-mockmvc.html")
     targetDir = file("src/main/resources/static/docs")
 }
 

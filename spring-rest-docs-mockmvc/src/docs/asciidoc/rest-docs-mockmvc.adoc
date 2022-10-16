@@ -1,0 +1,25 @@
+= Service Api Rest Docs
+Spring Rest Docs;
+
+이 문서는 Service-Api 에 대한 문서입니다.
+
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs // 문서에 표기되는 코드들의 하이라이팅을 highlightjs를 사용
+:toc: left // toc (Table Of Contents)를 문서의 좌측에 두기
+:toclevels: 2
+:sectlinks:
+
+[[Health-Check-API]]
+== Health Check API
+---
+Health Check Api 정리
+
+cURL:
+include::{snippets}/health-check-controller-test/health-check-test/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/health-check-controller-test/health-check-test/http-request.adoc[]
+
+HTTP response:
+include::{snippets}/health-check-controller-test/health-check-test/http-response.adoc[]
