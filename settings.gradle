@@ -1,2 +1,3 @@
 rootProject.name = 'spring-boot-api-docs'
+include 'spring-rest-docs-mockmvc'
 
